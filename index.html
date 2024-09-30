@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Ponto Eletrônico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="data-hora">
+        <p id="dia-semana"></p>
+        <p id="data-atual"></p>
+        <p id="hora-atual"></p>
+    </div>
+    <button id="btn-registrar-ponto">Registrar ponto</button>
+
+    <dialog id="dialog-ponto">
+        <p id="dialog-data">Data</p>
+        <p id="dialog-hora">Hora</p>
+        <select name="register-type" id="register-type">
+        <option id="btn-dialog-entrada">Entrada</option>
+        <option id="btn-dialog-intervalo">Intervalo</option>
+        <option id="btn-dialog-volta">volta intervalo</option>
+        <option id="btn-dialog-saida">Saída</option>
+     </select>
+        <p id="dialog-fechar">X</p>
+        <p id="registro">Registrar</p>
+ 
+    </dialog>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

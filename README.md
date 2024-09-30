@@ -1,3 +1,2 @@
-# Sistema de controle de ponto
-
-cada dia fazendo mais programa 👀
+# ponto-eletronico-cc-a
+Sistema de controle de ponto
